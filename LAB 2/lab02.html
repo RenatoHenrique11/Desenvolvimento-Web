@@ -1,0 +1,132 @@
+!<--Site LAB2 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale"=1.0>
+        <tittle>Bio: Max Verstappen</tittle>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: justify;
+                background-color:skyblue; 
+            }
+            h1 {
+                color: white;
+                text-shadow: 2px 2px 4px orange;
+            }
+            h2 {
+                color: white;
+                text-shadow: 2px 2px 4px red;
+            }
+            h3 {
+                color: white;
+                text-shadow: 2px 2px 4px rgb(19, 97, 221);
+            }
+            h4 {
+                color: white;
+                text-shadow: 2px 2px 4px yellow;
+            }
+        
+        </style>
+
+    </head>
+<body>
+    <h1>
+        Bio: Max Verstappen
+    </h1>
+    <p>
+        Neste site você irá encontrar algumas curiosidades e informações do piloto Max Verstappen.
+    </p>
+    <h2>
+        Quem é Max Verstappen?
+    </h2>
+    <p>
+        Max Emilian Verstappen é um dos maiores pilotos de sua geração e após grande desempenho nos últimos anos conseguiu se tornar um dos maiores pilotos do mundo na fórmula 1. 
+    <p>
+        <p> <img src="https://tse4.mm.bing.net/th?id=OIP.kVkjYEbIM78KnGj3m5Vk-QAAAA&pid=Api&P=0&h=180" alt="Max Vencendo corrida"></p>
+        <p>Max vencendo corrida</p>
+        
+        <h3>
+          Corridas que ele ficou em primeiro:
+        </h3>
+        
+         <ul>
+             <li>2021: 1º lugar na Grande Prix de Monaco</li>
+              <li>2023: 1º lugar na Grande Prix de Barcelona</li>
+               <li>2023: 1º lugar na Grande Prix de São Paulo</li>
+              <li>2022: 1º lugar na Grande Prix do Japão</li>
+         </ul>
+      
+
+        
+        <h4>
+            Alguns Recordes:
+        </h4>
+    </p>
+
+<ol>
+    <li>Piloto mais jovem a correr (17 anos)</li>
+    <li>Piloto mais jovem a conquistar um pódio (18 anos)</li>
+    <li>Mais pódios em uma temporada (19 vitória)</li>
+    <li>Maior número de vitórias consecutivas (10)</li>
+</ol>
+    <h5>
+        Fórmulario para cadastro de fã
+    </h5>
+        
+        <form action="/enviar_formulario" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+     <p>
+        <div class="container">
+    <label for="Região">Em qual Região você mora:</label>
+    <select id="Região" name="Região">
+        <option value="Norte">Norte</option>
+        <option value="Nordeste">Nordeste</option>
+        <option value="Centro-Oeste">Centro-Oeste</option>
+        <option value="Sudeste">Sudeste</option>
+        <option value="Sul">Sul</option>
+    </select>
+        </div>
+    </p>
+           
+    
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+
+    <h2>Canvas</h2>
+    <h2>Gráfico do Canvas</h2>
+    <canvas id="meuCanvas" width="200" height="100" style="border:1px solid red;"></canvas>
+    <script>
+        var c = document.getElementById("meuCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(20, 20, 150, 75);
+    </script>
+</div> </canvas>
+    <div class="container">
+     <h2>Gráfico do SVG</h2>
+        <svg width="100" height="100">
+         <circle cx="50" cy="50" r="40" stroke="pink" stroke-width="4" fill="purple" />
+        </svg>
+</div>
+
+    <p>Edit Max Verstappen X DNA:</p> 
+   
+        <iframe src="https://www.youtube.com/embed/o4QXiKLv9yo" frameborder="'0" width="420" height="315"  ></iframe>
+
+        <p><audio controls>
+            <source src="https://samplefocus.com/samples/90s-type-bass-line-with-vox type="audio/">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio></p> 
+       
+</body>
+
+</html>
